@@ -4,7 +4,7 @@ use super::{ExtensionOptions, ExtensionTrait};
 use crate::module_loader::{LoaderOptions, RustyLoader};
 use ::deno_permissions::Permissions;
 use deno_core::v8::{BackingStore, SharedRef};
-use deno_core::{extension, CrossIsolateStore, Extension, FeatureChecker};
+use deno_core::{extension, CrossIsolateStore, Extension};
 use deno_runtime::permissions::RuntimePermissionDescriptorParser;
 use deno_telemetry::OtelConfig;
 use std::collections::HashSet;
